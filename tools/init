@@ -82,7 +82,7 @@ init_files() {
     rm -rf "$temp"
 
     ## Cleanup image settings in site config
-    _sedi "s/(^timezone:).*/\1/;s/(^.*cdn:).*/\1/;s/(^avatar:).*/\1/" _config.yml
+    # _sedi "s/(^timezone:).*/\1/;s/(^.*cdn:).*/\1/;s/(^avatar:).*/\1/" _config.yml
   fi
 
   # remove the other files
