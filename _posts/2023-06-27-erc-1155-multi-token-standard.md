@@ -1,6 +1,6 @@
 ---
 title: ERC-1155 Multi Token Standard
-description: Security considerations for ERC-4626 Vaults include consistent view functions, managing slippage, and cautious custom implementations.
+description: This introduction to ERC1155 highlights its unique ability to handle both fungible and non-fungible tokens within a single contract, contrasting it with ERC721, and emphasizing its flexibility. The audit checklist ensures a comprehensive security review, focusing on access control, external calls, token supply management, batch operations, metadata validation, error handling, and third-party dependencies.
 author: th13vn
 date: 2023-06-27 00:01:00 +0700
 categories: [AuditNote]
