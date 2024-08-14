@@ -3,8 +3,8 @@ title: Helpful Links Smart Contract Security Audit
 description: Essential tools, resources, and guidelines for mastering smart contract security and auditing.
 author: th13vn
 date: 2023-06-27 00:00:00 +0700
-categories: [Lodestar]
-tags: [lodestar]
+categories: [Helpful]
+tags: [tool, swc, scsvs]
 pin: true
 ---
 
