@@ -60,7 +60,7 @@ _check_init() {
 
 check_env() {
   _check_cli
-  _check_status
+  #_check_status
   _check_init
 }
 
@@ -86,7 +86,7 @@ init_files() {
   fi
 
   # remove the other files
-  rm -rf _posts/*
+  #rm -rf _posts/*
 
   # build assets
   npm i && npm run build
@@ -103,7 +103,7 @@ commit() {
 
 main() {
   check_env
-  reset_latest
+  #reset_latest
   init_files
   commit
 }
