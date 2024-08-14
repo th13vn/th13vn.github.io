@@ -65,7 +65,7 @@ check_env() {
 }
 
 reset_latest() {
-  git reset --hard "$RELEASE_HASH"
+  # git reset --hard "$RELEASE_HASH"
   git clean -fd
   git submodule update --init --recursive
 }
@@ -83,10 +83,10 @@ init_files() {
   fi
 
   # Cleanup image settings in site config
-  _sedi "s/(^timezone:).*/\1/;s/(^.*cdn:).*/\1/;s/(^avatar:).*/\1/" _config.yml
+  # _sedi "s/(^timezone:).*/\1/;s/(^.*cdn:).*/\1/;s/(^avatar:).*/\1/" _config.yml
 
   # remove the other files
-  rm -rf tools/init.sh tools/release.sh _posts/*
+  # rm -rf tools/init.sh tools/release.sh _posts/*
 
   # build assets
   npm i && npm run build
@@ -103,7 +103,7 @@ commit() {
 
 main() {
   check_env
-  reset_latest
+  #reset_latest
   init_files
   commit
 }
