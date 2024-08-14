@@ -7,7 +7,7 @@ categories: [AuditNote]
 tags: [audit]
 image:
   path: https://github-production-user-asset-6210df.s3.amazonaws.com/47786126/245072437-9b171709-e063-4996-9432-a8953ccde2ce.png
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+  alt: Basic Workflow
 ---
 
 # Common Security issues
